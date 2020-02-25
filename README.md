@@ -123,24 +123,30 @@ Most homework will be in the form of Jupyter notebooks. Homework assignments wil
         * You will apply everything you've learned up to this point to simulate random walks in various dimensions and visualize them.
         * You will appreciate the role of randomness in molecular diffusion.
     * :pencil2: *Homework:*
-        * (20 pts) homework-Feb-06-randomwalk.ipynb (:alarm_clock: due *before* midnight Feb-13-R)
-* Feb-11-T: **Probability Density/Mass Functions (PDFs/PMFs)**
+        * (20 pts) homework-Feb-06-randomwalk.ipynb (:alarm_clock: due *before* midnight Feb-18-T)
+* Feb-11-T: **Probability Distributions of Random Variables**
     * :cyclone: *Objectives:*
-        * You will understand how randomness can give rise to normally or exponentially distributed observations.
+        * You will understand the difference between discrete and continuous random variables.
+        * You will understand the difference between probability mass functions (PMFs) and probability density functions (PDFs).
         * You will be able to obtain a probability from a PDF.
-        * You will understand the difference between a probability and a likelihood.
-        * You will be able to obtain parameters for normal or exponential PDFs that maximize their likelihood of explaining some data.
-        * You will be able to plot data distributions overlaid with best fit PDFs.
-        * You will understand how randomness can give rise to binomially or poisson distributed observations.
-        * You will understand the difference between a PDF and a PMF.
-        * You will be able to plot data distributions overlaid with best fit PMFs.
-* Feb-13-R: **Curve Fitting and Maximum Likelihood Optimization**
+        * You will be able to obtain statistics such as mean and variance from a probability distribution.
+        * You will be able to plot probability distributions.
+        * You will understand that different processes give rise to different types of distributions of random variables.
+        * You will be able to identify types of data described by binomial, poisson, exponential and normal distributions.
+    * :pencil2: *Homework:*
+        * (9 pts) homework-Feb-11-probdist.ipynb (:alarm_clock: due *before* midnight Feb-20-R)
+* Feb-13-R: **Requested Review**
+* Feb-18-T: **Canceled**
+* Feb-20-R: **Curve Fitting, Optimization and Maximum Likelihood Estimation (MLE)**
     * *Objectives:*
         * You will be able to apply minimization algorithms to optimize the fit between a function and some data.
         * You will be able to enforce constraints such as parameter bounds and relations during optimization.
+        * You will be able to fit model distributions to data to infer parameters of the distributions from which the random data samples were obtained.
         * You will understand the benefit of working with loglikelihoods instead of likelihoods.
-        * You will apply these concepts to obtain parameters for binomial or poisson PMFs that maximize their likelihood of explaining some data.
-* Feb-18-T: **Hypothesis Testing and the Central Limit Theorem**
+        * You will apply these concepts to obtain maximum likelihood estimates for parameters of nontrivial probability distributions to samples of random variables.
+    * :pencil2: *Homework:*
+        * (10 pts) homework-Feb-20-mle.ipynb (:alarm_clock: due *before* midnight Feb-27-R)
+* Feb-25-T: **Hypothesis Testing and the Central Limit Theorem**
     * :cyclone: *Objectives:*
         * You will understand how to formulate a null and alternative hypothesis.
         * You will understand what a p-value is.
@@ -151,7 +157,7 @@ Most homework will be in the form of Jupyter notebooks. Homework assignments wil
         * You will be able to describe types of data where t-tests are not likely to be applicable.
     * *Extra Credit:*
         * Write code illustrating the Central Limit Theorem.
-* Feb-20-R: **Bootstrap and Permutation tests**
+* Feb-27-R: **Bootstrap and Permutation tests**
     * :cyclone: *Objectives:*
         * You will be able to bootstrap a data set.
         * You will understand why bootstrapping is useful and under what circumstances it will not help you.
@@ -159,7 +165,7 @@ Most homework will be in the form of Jupyter notebooks. Homework assignments wil
         * You will understand for what specific question a permutaion test is relevant.
         * You will understand the difference between parametric and nonparametric tests.
         * You will be able to list one benefit and one downside to nonparametric tests like bootstrap and permutation tests as compared to parameteric tests.
-* Feb-25-T: **Timeseries**
+* Mar-03-T: **Timeseries**
     * :cyclone: *Objectives:*
         * You will be able to explain the concepts of sampling, Nyquist frequency, subsampling and aliasing.
         * You will be able to quantify the autocorrelation of a timeseries, and explain what it means.
@@ -169,7 +175,7 @@ Most homework will be in the form of Jupyter notebooks. Homework assignments wil
         * You will be able to plot a spectrogram for a timeseries and interpret it.
     * :pencil2: *Homework:*
         * (10 pts) homework-Feb-18-timeseries.ipynb (:alarm_clock: due *before* midnight Feb-27-R)
-* Feb-27-R: **Filtering**
+* Mar-05-R: **Filtering**
     * :cyclone: *Objectives:*
         * You will be able to filter a timeseries by manipulating its Fourier frequency domain.
         * You will be able to filter a timeseries by convolving it with another timeseries.
@@ -178,7 +184,12 @@ Most homework will be in the form of Jupyter notebooks. Homework assignments wil
         * You will be able to visualize 2D images.
         * You will be able to filter 2D image filters using convolution.
         * Motivate: Convolutional Neural Networks (CNNs) that are the basis for most image recognition.
-* Mar-03-T: **Hidden Markov Models (HMMs)**
+* Mar-10-T: **TBA**
+* Mar-12-R: **Midterm Exam**
+* Mar-17-T: SPRING BREAK
+* Mar-19-R: SPRING BREAK
+
+* Mar-24-T: **Hidden Markov Models (HMMs)**
     * :cyclone: *Objectives:*
         * Memoryless
         * Rate constants
@@ -186,17 +197,13 @@ Most homework will be in the form of Jupyter notebooks. Homework assignments wil
         * Exponential (geometric) dwell time distributions
         * Number of distinguishable states
         * Filtering single molecule timeseries
-* Mar-05-R: **Hidden Markov Models (HMMs)**
+* Mar-26-R: **Hidden Markov Models (HMMs)**
     * :cyclone: *Objectives:*
         * Non-observable states
         * Gaussian Mixture Models (GMMs) <-- covered in clustering section
         * Baum-Welch optimization
         * Which model is best?
         * Bayesian and Akaike Information Criteria
-* Mar-10-T: **Review**
-* Mar-12-R: **Midterm Exam**
-* Mar-17-T: SPRING BREAK
-* Mar-19-R: SPRING BREAK
 
 Possible topics yet to be scheduled:
 
